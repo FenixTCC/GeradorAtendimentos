@@ -19,15 +19,17 @@ public class RandAtendimentos
     public static int RandomizarTriagem()
     {
         Random rand = new Random();
-        int randTriagem = rand.Next(1, 11);
+        int randTriagem = rand.Next(1, 12);
         int idTriagem;
 
-        if (randTriagem >= 1 && randTriagem <= 6)
+        if (randTriagem >= 1 && randTriagem <= 4)
             idTriagem = 1;
-        else if (randTriagem >= 7 && randTriagem <= 9)
+        else if (randTriagem >= 5 && randTriagem <= 8)
             idTriagem = 2;
-        else
+        else if (randTriagem >= 9 && randTriagem <= 10)
             idTriagem = 3;
+        else
+            idTriagem = 4;
 
         return idTriagem;
     }
@@ -48,39 +50,44 @@ public class RandAtendimentos
             randTempo = rand.Next(121, 241);
         else if (idTriagem == 2)
             randTempo = rand.Next(61, 121);
-        else
+        else if (idTriagem == 3)
             randTempo = rand.Next(11, 61);
+        else
+            randTempo = 10;
 
         return randTempo;
     }
 
-    public static int RandomizarAtrasoAtendimento(int idAtendimento, int idHospital, int tempoAtendimento)
+    public static int RandomizarAtrasoAtendimento(int idAtendimento, int idHospital, int idTriagem, int tempoAtendimento)
     {
         Random rand = new Random();
         int randAtraso = rand.Next(30, 61);
 
-        if (idAtendimento >= 1 && idAtendimento <= 180)
+        if (idTriagem != 4)
         {
-            if (idHospital == 1 || idHospital == 3 || idHospital == 5)
-                return tempoAtendimento + randAtraso;
-        }
+            if (idAtendimento >= 1 && idAtendimento <= 180)
+            {
+                if (idHospital == 1 || idHospital == 3 || idHospital == 5)
+                    return tempoAtendimento + randAtraso;
+            }
 
-        if (idAtendimento >= 181 && idAtendimento <= 360)
-        {
-            if (idHospital == 2 || idHospital == 4 || idHospital == 6)
-                return tempoAtendimento + randAtraso;
-        }
+            if (idAtendimento >= 181 && idAtendimento <= 360)
+            {
+                if (idHospital == 2 || idHospital == 4 || idHospital == 6)
+                    return tempoAtendimento + randAtraso;
+            }
 
-        if (idAtendimento >= 361 && idAtendimento <= 540)
-        {
-            if (idHospital == 1 || idHospital == 3 || idHospital == 5)
-                return tempoAtendimento + randAtraso;
-        }
+            if (idAtendimento >= 361 && idAtendimento <= 540)
+            {
+                if (idHospital == 1 || idHospital == 3 || idHospital == 5)
+                    return tempoAtendimento + randAtraso;
+            }
 
-        if (idAtendimento >= 541 && idAtendimento <= 720)
-        {
-            if (idHospital == 2 || idHospital == 4 || idHospital == 6)
-                return tempoAtendimento + randAtraso;
+            if (idAtendimento >= 541 && idAtendimento <= 720)
+            {
+                if (idHospital == 2 || idHospital == 4 || idHospital == 6)
+                    return tempoAtendimento + randAtraso;
+            }
         }
 
         return tempoAtendimento;

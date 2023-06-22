@@ -19,7 +19,7 @@ public class InsertAtendimentos
             atendimento.IdAssociado = Rand.RandAtendimentos.RandomizarAssociado();
 
             atendimento.TempoAtendimento = Rand.RandAtendimentos.RandomizarTempoAtendimento(atendimento.IdTriagem);
-            atendimento.TempoAtendimento = Rand.RandAtendimentos.RandomizarAtrasoAtendimento(atendimento.IdAtendimento, atendimento.IdHospital, atendimento.TempoAtendimento);
+            atendimento.TempoAtendimento = Rand.RandAtendimentos.RandomizarAtrasoAtendimento(atendimento.IdAtendimento, atendimento.IdHospital, atendimento.IdTriagem, atendimento.TempoAtendimento);
 
             atendimento.SenhaAtendimento = Rand.RandAtendimentos.RandomizarFormatarSenha(atendimento.IdEspecialidade, atendimento.IdHospital, atendimento.IdAtendimento);
 
