@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s/0GVAq8TWmTQaBWqCCbTGQxzHnZsNMQhGKtz603cgQgqjzAYHAlXnpYOi0wC6823HaO8KtZoz9HveW2Vcf2yA==",
+  "dgSpecHash": "b5/EJlsnpOpXY8fJnGYA9D8UH3hz0JqsAcdZ5Hz+pJTEmhXGrlRNcEQer55jvEvjviJop5+knov4MJqT2xoQQw==",
   "success": true,
-  "projectFilePath": "C:\\DEV\\TCC\\dev\\AtendimentosRandomicos\\AtendimentosRandomicos\\AtendimentosRandomicos.csproj",
+  "projectFilePath": "C:\\DEV\\TCC\\GeradorAtendimentos\\AtendimentosRandomicos\\AtendimentosRandomicos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iagom\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\iagom\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

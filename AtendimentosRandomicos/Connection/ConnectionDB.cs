@@ -21,7 +21,7 @@ public class ConnectionDB
 
         SqlConnection conn = new SqlConnection();
         string strConnLocal = "Data Source=localhost; Initial Catalog=DB-TCC-QUANTODEMORA; User Id=sa; Password=123456";
-        string strConnSomee = "workstation id=DB-TCC-QUANTODEMORA.mssql.somee.com;packet size=4096;user id=quantodemoraadm_SQLLogin_1;pwd=mnczwhoccv;data source=DB-TCC-QUANTODEMORA.mssql.somee.com;persist security info=False;initial catalog=DB-TCC-QUANTODEMORA";
+        string strConnSomee = "workstation id=DB-TCC-QUANTODEMORA.mssql.somee.com;packet size=4096;user id=quantodemoraadm_SQLLogin_1;pwd=mnczwhoccv;data source=DB-TCC-QUANTODEMORA.mssql.somee.com;persist security info=False;initial catalog=DB-TCC-QUANTODEMORA;Encrypt=False;trustservercertificate=false";
         
         try
         {

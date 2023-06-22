@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DEV\\TCC\\dev\\AtendimentosRandomicos\\AtendimentosRandomicos\\AtendimentosRandomicos.csproj": {}
+    "C:\\DEV\\TCC\\GeradorAtendimentos\\AtendimentosRandomicos\\AtendimentosRandomicos.csproj": {}
   },
   "projects": {
-    "C:\\DEV\\TCC\\dev\\AtendimentosRandomicos\\AtendimentosRandomicos\\AtendimentosRandomicos.csproj": {
+    "C:\\DEV\\TCC\\GeradorAtendimentos\\AtendimentosRandomicos\\AtendimentosRandomicos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DEV\\TCC\\dev\\AtendimentosRandomicos\\AtendimentosRandomicos\\AtendimentosRandomicos.csproj",
+        "projectUniqueName": "C:\\DEV\\TCC\\GeradorAtendimentos\\AtendimentosRandomicos\\AtendimentosRandomicos.csproj",
         "projectName": "AtendimentosRandomicos",
-        "projectPath": "C:\\DEV\\TCC\\dev\\AtendimentosRandomicos\\AtendimentosRandomicos\\AtendimentosRandomicos.csproj",
+        "projectPath": "C:\\DEV\\TCC\\GeradorAtendimentos\\AtendimentosRandomicos\\AtendimentosRandomicos.csproj",
         "packagesPath": "C:\\Users\\iagom\\.nuget\\packages\\",
-        "outputPath": "C:\\DEV\\TCC\\dev\\AtendimentosRandomicos\\AtendimentosRandomicos\\obj\\",
+        "outputPath": "C:\\DEV\\TCC\\GeradorAtendimentos\\AtendimentosRandomicos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

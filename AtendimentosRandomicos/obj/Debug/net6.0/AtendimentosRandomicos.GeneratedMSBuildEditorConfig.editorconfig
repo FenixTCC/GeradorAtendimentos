@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AtendimentosRandomicos
-build_property.ProjectDir = C:\DEV\TCC\dev\AtendimentosRandomicos\AtendimentosRandomicos\
+build_property.ProjectDir = C:\DEV\TCC\GeradorAtendimentos\AtendimentosRandomicos\
